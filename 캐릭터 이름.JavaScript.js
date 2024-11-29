@@ -144,7 +144,7 @@ document.getElementById("next-button").addEventListener("click", () => {
 // 나가기 버튼 클릭시 초기화 및 메인으로 이동
 document.getElementById("reset-button").addEventListener("click", () => {
     localStorage.removeItem('players');
-    window.location.href = 'lobby.html'; // 소개 페이지로 이동 --------------------------------------------------------------
+    window.location.href = 'index.html'; // 소개 페이지로 이동 --------------------------------------------------------------
 });
 
 // 게임 종료 처리
