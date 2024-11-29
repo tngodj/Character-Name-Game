@@ -1,0 +1,80 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* 중앙 배치 */
+    align-items: center;  /* 수직 중앙 정렬 */
+    height: 100vh;          /*  높이 */
+    background-image: url('배경 2.jpg'); /* 배경 이미지 추가 */
+    background-size: cover;/* 배경 이미지를 화면 크기에 맞게 크기 조정 (비율 유지) */
+    background-position: center; /* 배경 이미지 중앙에 위치 */
+    background-attachment: fixed; /* 스크롤 시 배경이 고정되도록 설정 */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 300px; /* 고정된 너비 */
+    
+  
+    height: 300px; /* 고정된 높이*/ 
+        object-fit: cover; /* 이미지 비율 유지하면서 잘라내기 */
+        margin-bottom: 20px;
+    }
+
+
+button {                     
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar {
+    position: absolute; /* 절대 위치 지정 */
+    top: 20px; /* 위쪽 여백 */
+    right: 20px; /* 오른쪽 여백 */
+    text-align: right; /* 오른쪽 정렬 */
+    background: rgba(255, 255, 255, 0.8); /* 배경색 */
+    padding: 10px;
+    border-radius: 5px; /* 모서리 둥글게 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 그림자 */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.align-right {
+    text-align: right;
+    margin-right: 10px; /* 오른쪽 여백 조정 */
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    margin-right: 10px; /* 오른쪽 여백 조정 */
+}
+
+
+#leaderboard-list {         /* 리스트 스타일 깔끔 하게 표시*/
+    list-style-type: none;
+    padding: 0;
+}
+
